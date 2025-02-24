@@ -6,4 +6,3 @@
       </AppAlert>
     </div>
 </template>
-  
