@@ -9,4 +9,11 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    head: {
+      title: 'Smart Home',
+      
+      // ... meta tag lainnya
+    }
+  }
 })
