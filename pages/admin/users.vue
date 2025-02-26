@@ -5,7 +5,7 @@
     <nuxt-link to="/admin" class="text-blue-500 hover:underline">
         Go to Admin Dashboard
       </nuxt-link>
-    <img src="/images/grid-image/image-01.png" alt="">
+    <img src="/images/grid-image/image-01.png" style="width:200px;height:200px;">
   </div>
 </template>
 
