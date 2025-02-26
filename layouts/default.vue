@@ -1,8 +1,17 @@
 <template>
-    <div>
-      <AppHeader />
-      <slot />
-      <AppFooter />
+    <div class="tinggi min-h-screen">
+        <AppHeader />
+        <div class="flex">
+            <AppSidebar />
+            <slot />
+        </div>
+        <AppFooter />
     </div>
-  </template>
+</template>
   
+
+<style>
+.tinggi{
+    height: 100%;
+}
+</style>
