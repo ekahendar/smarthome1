@@ -13,7 +13,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Smart Home',
-      
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: './images/favicon.ico' }
+      ]
       // ... meta tag lainnya
     }
   },

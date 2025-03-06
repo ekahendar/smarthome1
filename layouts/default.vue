@@ -1,5 +1,5 @@
 <template>
-    <div class="tinggi min-h-screen">
+    <div class="h-screen w-screen">
         <AppHeader />
         <div class="flex">
             <AppSidebar />
@@ -10,8 +10,3 @@
 </template>
   
 
-<style>
-.tinggi{
-    height: 100%;
-}
-</style>
