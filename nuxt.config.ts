@@ -16,5 +16,6 @@ export default defineNuxtConfig({
       
       // ... meta tag lainnya
     }
-  }
+  },
+  
 })
