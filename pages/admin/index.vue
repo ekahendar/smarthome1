@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div class="flex-wrap">
+    <nuxt-link to="/" class="text-blue-500 hover:underline">
+        Go to Home Dashboard
+    </nuxt-link>
     <input v-model="newTodo" placeholder="Tambah todo baru" />
     <button @click="addTodo">Tambah</button>
     <ul>

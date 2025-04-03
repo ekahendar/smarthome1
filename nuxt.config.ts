@@ -15,7 +15,8 @@ export default defineNuxtConfig({
       title: 'Smart Home',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: './images/favicon.ico' }
-      ]
+      ],
+      viewport: 'width=device-width, initial-scale=1',
       // ... meta tag lainnya
     }
   },
